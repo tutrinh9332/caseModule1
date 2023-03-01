@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 50px;
+            background-color: red;
+        }
+        div{
+            padding-left: 350px;
+        }
+        button{
+            border-radius: 10px;
+            font-family: monospace;
+            color: blue;
+        }
+        button:hover{
+            color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <img id="picture" src="https://files.vforum.vn/2014/T10/img/vforum.vn-133676-10269476-756426614409590-3959686404124209037-n.jpg">
+</div>
+<br><br>
+<div><input type="text" id="input" placeholder="Nhap cau tra loi"></div>
+<br><br>
+<div class="row">
+    <button class="col" onclick="checkAnswer()">Check</button>
+    <button class="col" onclick="resetGame()">Reset</button>
+</div>
+<div class="row">
+    <h3>Score: <a id="score"></a></h3>
+    <h3>Lượt chơi: <a id="input1"></a></h3>
+
+</div>
+</body>
+<script src="script.js"></script>
+</html>
